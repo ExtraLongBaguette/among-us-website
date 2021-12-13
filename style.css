@@ -1,0 +1,251 @@
+@import url("https://www.fontmirror.com/app_public/files/t/1/2021/02/In%20your%20face%20joffrey.ttf");
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://i.pinimg.com/originals/ce/09/b3/ce09b3dc3bc1ab51293d55b610dc3f22.jpg);
+  font-family: "In your face, Joffrey!", "Fuzzy Bubbles", cursive;
+  font-size: 48px;
+}
+
+#container {
+  height: 90%;
+  width: 960px;
+  margin: auto;
+  padding-top: 50px;
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+}
+
+#header {
+  background: #c80f0f;
+  width: 960px;
+  display: inline-flex;
+  user-select: none;
+}
+#mainDiv {
+  background: #c80f0f;
+  width: 960px;
+  margin: 15px;
+  margin-left: 0px;
+  text-align: center;
+  overflow-y: auto;
+}
+#footer {
+  background: #c80f0f;
+  width: 960px;
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 960px) {
+  #container {
+    width: 600px;
+    grid-template-rows: 100px auto 100px;
+  }
+  #header {
+    width: 600px;
+  }
+  #mainDiv {
+    width: 600px;
+  }
+  #footer {
+    width: 600px;
+  }
+
+  #footerList li {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 300px;
+    grid-template-rows: 100px auto 200px;
+  }
+  #header {
+    width: 300px;
+  }
+  #mainDiv {
+    width: 300px;
+  }
+  #footer {
+    width: 300px;
+  }
+
+  #footerList {
+    flex-direction: column;
+  }
+
+  #footerList li {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #container {
+    width: 960px;
+    grid-template-rows: 100px auto 100px;
+  }
+  #header {
+    width: 960px;
+  }
+  #mainDiv {
+    width: 960px;
+  }
+  #footer {
+    width: 960px;
+  }
+}
+
+.headerLogo {
+  height: 100px;
+}
+
+.navDiv {
+  display: inline-flex;
+  flex: 1;
+}
+
+.navDiv ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  flex: 1;
+  height: 100px;
+  margin: 0;
+}
+
+.navDiv li {
+  float: left;
+  text-align: center;
+  flex: 1;
+  line-height: 100px;
+  display: flex;
+  transition: 0.1s;
+}
+
+.navDiv li a {
+  text-decoration: none;
+  color: black;
+  flex: 1;
+  transition: 0.1s;
+}
+
+.navDiv li:hover {
+  background-color: #ad0d0d;
+  color: white;
+}
+
+.navDiv li:active {
+  background-color: #811313;
+}
+
+.navDiv li a:hover {
+  color: white;
+}
+
+#button {
+  width: 250px;
+  height: 100px;
+  background-color: #c80f0f;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-size: 42px;
+  font-weight: 800;
+  font-family: "In your face, Joffrey!", "Fuzzy Bubbles", cursive;
+}
+
+#button:hover {
+  background-color: #ad0d0d;
+  color: white;
+  cursor: pointer;
+}
+
+#button:active {
+  background-color: #811313;
+}
+#mainDiv h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#mainDiv ol {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#footerList {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  font-size: 32px;
+}
+
+#footerList li {
+  float: left;
+  flex: 1;
+  display: inline-flex;
+}
+
+.socials {
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+  flex: 1;
+  margin: 0;
+}
+
+.socials li {
+  flex: 1;
+  float: left;
+}
+
+.someIcon {
+  width: 36px;
+  height: 36px;
+  transition: 0.1s;
+}
+
+.someIcon:hover {
+  transform: scale(1.1);
+}
+
+.someIcon:active {
+  transform: scale(0.9);
+}
+
+#downloadForm {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  flex: 1;
+  vertical-align: middle;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+#downloadForm table {
+  flex: 1;
+  margin: auto;
+  width: 50%;
+  table-layout: auto;
+  font-size: 32;
+}
+
+#downloadForm table tr td input {
+  width: 200px;
+}
+
+#otherInput {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+#formDiv {
+  margin: auto;
+  display: flex;
+}
+
+.radioButton {
+  width: 20px !important;
+}
